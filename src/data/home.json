@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "NPCAST — Bem-vindo ao NP Cast!",
+    "description": "O seu portal de crônicas e críticas da cultura pop."
+  },
+  "hero": {
+    "title": "Bem-vindo ao NP Cast!",
+    "subtitle": "O seu portal de crônicas e críticas da cultura pop.",
+    "btnText": "Explore nosso conteúdo!",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "Descubra o que oferecemos",
+    "items": [
+      {
+        "icon": "🎙️",
+        "title": "Podcast Variados",
+        "desc": "Explore nossos diferentes formatos de podcast, desde o Drops até o Talk Show."
+      },
+      {
+        "icon": "🎬",
+        "title": "Críticas de Filmes",
+        "desc": "Mantenha-se atualizado com nossas análises profundas sobre filmes clássicos e novos lançamentos."
+      },
+      {
+        "icon": "📚",
+        "title": "Cultura Pop",
+        "desc": "Debatemos tudo sobre cultura pop, de ufologia a futebol, trazendo um conteúdo dinâmico para você."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre o NP Cast!",
+    "desc": "Fundado em 2014 pelos amigos Trabuco e Eldake, o NP Cast! evoluiu de um simples hobby para um portal sério dedicado à cultura pop e ao universo dos podcasts. Nossa missão é entregar conteúdo diversificado e de qualidade, sempre com um olhar único e crítico.",
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Anos de Experiência"
+      },
+      {
+        "value": "100+",
+        "label": "Episódios Produzidos"
+      },
+      {
+        "value": "2000+",
+        "label": "Ouvintes por Episódio"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}

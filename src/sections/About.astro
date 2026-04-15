@@ -1,0 +1,57 @@
+---
+// About-A: Lado a lado — imagem esquerda, texto direita
+interface Stat { value: string; label: string; }
+interface Props {
+  title: string;
+  desc: string;
+  image: string;
+  btnText: string;
+  btnLink: string;
+  stats: Stat[];
+}
+const { title, desc, image, btnText, btnLink, stats } = Astro.props;
+---
+<section class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-2 gap-16 items-center">
+      <!-- Imagem esquerda -->
+      <div class="relative">
+        <div class="aspect-[4/3] rounded-3xl overflow-hidden">
+          <img src={image} alt={title} class="w-full h-full object-cover" loading="lazy" />
+        </div>
+        <!-- Badge flutuante -->
+        <div class="absolute -bottom-6 -right-6 bg-primary text-white rounded-2xl p-4 shadow-xl shadow-primary/30 hidden md:block">
+          <div class="text-2xl font-black">{stats[0]?.value}</div>
+          <div class="text-xs text-white/80 mt-0.5">{stats[0]?.label}</div>
+        </div>
+      </div>
+
+      <!-- Texto direita -->
+      <div>
+        <span class="text-xs font-bold uppercase tracking-widest text-primary mb-4 block">Sobre Nós</span>
+        <h2 class="text-3xl md:text-4xl font-black text-dark mb-6 leading-tight">{title}</h2>
+        <p class="text-gray-500 leading-relaxed mb-8">{desc}</p>
+
+        <!-- Stats grid -->
+        <div class="grid grid-cols-3 gap-4 mb-8">
+          {stats.map((stat, i) => (
+            <div class={`text-center p-4 rounded-2xl ${i === 0 ? 'bg-primary/5 border border-primary/10' : 'bg-gray-50'}`}>
+              <div class="text-xl font-black text-dark">{stat.value}</div>
+              <div class="text-xs text-gray-500 mt-1">{stat.label}</div>
+            </div>
+          ))}
+        </div>
+
+        <a
+          href={btnLink}
+          class="inline-flex items-center gap-2 px-6 py-3 bg-dark text-white font-bold rounded-xl hover:bg-accent transition-colors"
+        >
+          {btnText}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

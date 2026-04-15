@@ -1,0 +1,53 @@
+{
+  "name": "NPCAST",
+  "slug": "npcast.com.br",
+  "description": "O Np Cast! é um portal de conteúdo fundado pelos amigos Trabuco e Eldake, em 2014 com o objetivo de trazer crônicas e críticas da cultura pop e informações do mundo dos podcasts para nossos leitores. O que era brincadeira, evoluiu para algo sério, tão sério que mudou até de nome! O que era Nostromo Podcast hoje é apenas NP Cast! É publicado quinzenalmente sempre as terças feiras, e gerou uma família, sim a Família NP!, temos hoje Drops, Games, Mysterium e Talk Show! Com um conteúdo bem variado, trazemos aos nossos ouvintes, temáticas variadas, já falamos de filmes de trash horror, a estudos científicos, de ufologia ao futebol. Esse é o intuito da Família NP, trazer a cultura pop e a inserir dinamicamente em seu cotidiano! Se está gostando do nosso conteúdo, nos envie uma mensagem!",
+  "url": "https://npcast.com.br",
+  "niche": "Entretenimento",
+  "keywords": "O Np Cast e um portal de conteudo fundado pelos amigos Trabuco",
+  "email": "contato@npcast.com.br",
+  "palette": "forest",
+  "colors": {
+    "primary": "#16a34a",
+    "accent": "#14532d",
+    "dark": "#052e16"
+  },
+  "headerContrast": "light",
+  "font": "poppins",
+  "fontFamily": "'Poppins', sans-serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-G",
+    "hero": "Hero-I",
+    "features": "Features-F",
+    "about": "About-A",
+    "posts": "Posts-A",
+    "footer": "Footer-F",
+    "sobre": "Sobre-H",
+    "contato": "Contato-E"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}

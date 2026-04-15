@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o NPCAST"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "Fundado em 2014 pelos amigos Trabuco e Eldake, o NP Cast! evoluiu de um simples hobby para um portal sério dedicado à cultura pop e ao universo dos podcasts. Nossa missão é entregar conteúdo diversificado e de qualidade, sempre com um olhar único e crítico."
+  },
+  "content": "No NP Cast!, acreditamos que a cultura pop é uma parte essencial do nosso cotidiano. Desde análises de filmes a debates sobre temas intrigantes, nossa equipe se empenha em criar um ambiente inclusivo e divertido. Junte-se à Família NP e mergulhe em universos variados com a gente!",
+  "mission": "Nossa missão é entreter e informar, trazendo a cultura pop para o seu dia a dia.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}
